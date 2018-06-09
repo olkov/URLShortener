@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:300,400');
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+
+body {
+	width: 90%;
+	max-width: 1400px;
+	margin: 35px auto;
+}
+
+h3 {
+	text-align: center;
+	margin: 5px;
+}
+
+.login {
+	margin: 50px auto;
+	width: 400px;
+}
+
+.login>button[type="submit"] {
+	margin: auto;
+	display: block;
+	width: 100px;
+}
+
+.header .login-register {
+	float: right;
+}
+
+.two-inputs-in-one-line-1, .two-inputs-in-one-line-2 {
+	display: inline-block;
+	float: left;
+	width: 48%;
+}
+
+.two-inputs-in-one-line-2 {
+	float: right;
+}
+
+.no-links {
+	text-align: center;
+    font-weight: bold;
+}
+
+.content {
+	min-width: 1000px;
+	width: 80%;
+    margin: auto;
+}
+
+.alert.alert-danger, .alert.info, .alert.alert-success {
+	margin: 20px;
+    display: inline-block;
+}
+
+.alert.info {
+	background-color: #e3f2fd;
+}
+
+.msg {
+	text-align: center;
+}
+
+.show-hide-url-form-button {
+	display: inline-block;
+	margin-left: 15px;
+	font-size: 14px;
+	cursor: pointer;
+	display: inline-block;
+	color: #6c757d;
+}
+
+.show-hide-url-form-button:hover {
+	color: black;
+}
+
+.url-table th {
+	padding: 0;
+}
+
+.url-form {
+	display: none;
+}
+
+.url-form .url-input {
+	display: inline-block;
+	width: 485px;
+	padding: 5px 10px;
+	margin-right: 5px;
+}
+
+.column-title {
+	display: inline-block;
+	padding: 20px .75rem;
+}
+
+
+.h2-title {
+	text-align: center;
+	margin: 20px 0px;
+}
+
+.submit-button {
+	vertical-align: top;
+	width: 70px;
+    margin-left: 2px;
+}
+
+.edit-delete {
+	display: inline-block;
+    float: right;
+}
+
+.edit-delete i {
+	margin-left: 5px;
+	color: #6c757d;
+	cursor: pointer;
+}
+
+.edit-delete i:hover {
+	color: black;
+}
+
+.full-url {
+	display: inline-block;
+    width: 93%;
+}
+
+.no-data {
+	display: none;
+}
+
+.no-data.show {
+	display: table-row;
+}
